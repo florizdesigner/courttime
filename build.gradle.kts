@@ -30,6 +30,7 @@ dependencies {
 	testImplementation(libs.spring.boot.starter.jooq.test)
 	testImplementation(libs.spring.boot.starter.webmvc.test)
 	testRuntimeOnly(libs.junit.platform.launcher)
+	testImplementation(libs.spring.boot.testcontainers)
 	testImplementation(libs.testcontainers.junit.jupiter)
 	testImplementation(libs.testcontainers.postgresql)
 }

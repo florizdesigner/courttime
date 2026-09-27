@@ -5,6 +5,7 @@ spring-doc-version = "3.1.0"
 [libraries]
 spring-boot-starter-jooq = { group = "org.springframework.boot", name = "spring-boot-starter-jooq" }
 spring-boot-starter-webmvc = { group = "org.springframework.boot", name = "spring-boot-starter-webmvc" }
+spring-boot-testcontainers = { group = "org.springframework.boot", name = "spring-boot-testcontainers" }
 springdoc-openapi-starter-webmvc-ui = { group = "org.springdoc", name = "springdoc-openapi-starter-webmvc-ui", version.ref = "spring-doc-version" }
 spring-boot-devtools = { group = "org.springframework.boot", name = "spring-boot-devtools" }
 postgresql = { group = "org.postgresql", name = "postgresql" }
