@@ -1,8 +1,8 @@
 import org.springframework.boot.gradle.plugin.SpringBootPlugin
 
 plugins {
-	id("java")
-	alias(libs.plugins.spring.boot.plugin)
+	java
+	alias(libs.plugins.spring.boot)
 }
 
 group = "ru.florizzz"
@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
 	implementation(platform(SpringBootPlugin.BOM_COORDINATES))
+	developmentOnly(platform(SpringBootPlugin.BOM_COORDINATES))
 
 	implementation(libs.spring.boot.starter.jooq)
 	implementation(libs.spring.boot.starter.webmvc)
@@ -31,7 +32,6 @@ dependencies {
 	testImplementation(libs.spring.boot.starter.webmvc.test)
 	testRuntimeOnly(libs.junit.platform.launcher)
 	testImplementation(libs.spring.boot.testcontainers)
-	testImplementation(libs.testcontainers.junit.jupiter)
 	testImplementation(libs.testcontainers.postgresql)
 }
 

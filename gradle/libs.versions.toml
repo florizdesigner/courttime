@@ -13,7 +13,6 @@ spring-boot-starter-jooq-test = { group = "org.springframework.boot", name = "sp
 spring-boot-starter-webmvc-test = { group = "org.springframework.boot", name = "spring-boot-starter-webmvc-test" }
 junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher" }
 testcontainers-postgresql = { group = "org.testcontainers", name = "testcontainers-postgresql" }
-testcontainers-junit-jupiter = { group = "org.testcontainers", name = "testcontainers-junit-jupiter" }
 
 [plugins]
-spring-boot-plugin = { id = "org.springframework.boot", version.ref = "spring-boot-version" }
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot-version" }

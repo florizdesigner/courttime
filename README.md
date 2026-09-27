@@ -26,8 +26,8 @@
 
 ## Требования
 
-- JDK 25
 - PostgreSQL (локально или в Docker)
+- Docker
 
 ## Запуск
 
