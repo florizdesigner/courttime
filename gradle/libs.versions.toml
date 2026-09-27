@@ -1,0 +1,18 @@
+[versions]
+spring-boot = "4.1.1"
+spring-doc = "3.1.0"
+
+[libraries]
+spring-boot-starter-jooq = { group = "org.springframework.boot", name = "spring-boot-starter-jooq" }
+spring-boot-starter-webmvc = { group = "org.springframework.boot", name = "spring-boot-starter-webmvc" }
+spring-boot-testcontainers = { group = "org.springframework.boot", name = "spring-boot-testcontainers" }
+springdoc-openapi-starter-webmvc-ui = { group = "org.springdoc", name = "springdoc-openapi-starter-webmvc-ui", version.ref = "spring-doc" }
+spring-boot-devtools = { group = "org.springframework.boot", name = "spring-boot-devtools" }
+postgresql = { group = "org.postgresql", name = "postgresql" }
+spring-boot-starter-jooq-test = { group = "org.springframework.boot", name = "spring-boot-starter-jooq-test" }
+spring-boot-starter-webmvc-test = { group = "org.springframework.boot", name = "spring-boot-starter-webmvc-test" }
+junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher" }
+testcontainers-postgresql = { group = "org.testcontainers", name = "testcontainers-postgresql" }
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
